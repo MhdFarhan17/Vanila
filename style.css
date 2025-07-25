@@ -30,6 +30,32 @@ main { width: 100%; }
     transform: translateY(30px);
     transition: opacity 1.2s ease-out, transform 1.2s ease-out;
 }
+
+/* --- Style untuk Tombol Musik --- */
+#music-toggle-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--main-pink);
+    color: white;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+
+#music-toggle-btn:hover {
+    transform: scale(1.1);
+}
+
 .scene.is-visible { opacity: 1; transform: translateY(0); }
 h1, h2 { font-family: var(--title-font); font-weight: 700; color: var(--main-pink); }
 h1.title { font-size: clamp(3rem, 10vw, 5rem); }

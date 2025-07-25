@@ -1,5 +1,23 @@
 document.addEventListener('DOMContentLoaded', function() {
 
+        // --- LOGIKA UNTUK TOMBOL MUSIK ---
+    const music = document.getElementById('bg-music');
+    const musicBtn = document.getElementById('music-toggle-btn');
+
+    // Cek apakah elemen musik ada di halaman ini
+    if (music && musicBtn) {
+        musicBtn.addEventListener('click', () => {
+            // Cek apakah musik sedang berhenti/belum mulai
+            if (music.paused) {
+                music.play();
+                musicBtn.textContent = '⏸️'; // Ganti ikon jadi pause
+            } else {
+                music.pause();
+                musicBtn.textContent = '🎵'; // Ganti ikon jadi play
+            }
+        });
+    }
+
     // --- LOGIKA INTRO INTERAKTIF (VERSI MENYEBALKAN) ---
     const introQuestion = document.getElementById('intro-question');
     const storyContent = document.getElementById('story-content');
