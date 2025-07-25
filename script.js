@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Daftar pertanyaan "menyebalkan" kita
         const questions = [
             { h2: "Hmm, tapi kok kayak wangi vanila ya...", p: "Jangan-jangan kamu Vanila?", btn: "Hehe iya juga..." },
-            { h2: "Yaudah deh, iya...", p: "Kamu Silvanila Munana itu, kan?", btn: "Nah, itu baru bener!" }
+            { h2: "Yaudah deh, iya...", p: "Kamu Sivanila Munana itu, kan?", btn: "Nah, itu baru bener!" }
         ];
 
         // Saat tombol "Iya" di klik
