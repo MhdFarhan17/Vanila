@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sebuah Cerita Untuk Nila</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <audio id="bg-music" loop src="audio/musik.mp3"></audio>
+
+    <main>
+        <section id="intro-question" class="scene is-visible">
+            <h2 id="question-h2">Bener nih, kamu...</h2>
+            <p id="question-p">Nila?</p>
+            <div class="button-group">
+                <button id="btn-yes" class="btn">Iya, bener!</button>
+                <button id="btn-no" class="btn btn-secondary">Bukan.</button>
+            </div>
+        </section>
+
+        <div id="story-content" style="display: none;">
+            <section class="scene">
+                <h2>Aku sudah duga! Wanita cantik yang suka naik gunung itu kan?</h2>
+                <p>Walau kadang bikin capek, tapi kamu suka kan?<br>Yang selalu minta difotoin biar hasilnya bagus dan cantik...</p>
+                <p>...padahal kamu emang udah cantik aja.</p>
+                <blockquote class="quote">
+                    "Bukan gunung yang kita taklukkan, tapi diri kita sendiri."
+                    <cite>– Sir Edmund Hillary (tapi ini juga tentang kamu)</cite>
+                </blockquote>
+            </section>
+
+            <section class="scene">
+                <div class="photo-card">
+                    <img src="img/nila-sendiri-1.jpg" alt="Foto cantik Nila di gunung">
+                    <p class="caption">Nih, liat foto pertama ini... Cantik kan?</p>
+                </div>
+            </section>
+
+            <section class="scene">
+                <div class="photo-card">
+                    <img src="img/nila-sendiri-2.jpg" alt="Satu lagi foto cantik Nila">
+                    <p class="caption">Aku bilang juga apa, di foto kedua ini juga sama. Hahaha.</p>
+                </div>
+            </section>
+
+             <section class="scene">
+                <h2>Tapi dari semua momen...</h2>
+                <p>Ada satu yang paling aku ingat.</p>
+                <a href="moment.html" class="btn-lanjut">Lihat Momen Spesial Itu...</a>
+            </section>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
