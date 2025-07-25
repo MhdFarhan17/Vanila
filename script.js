@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const questionP = document.getElementById('question-p');
         const questions = [
             { h2: "Hmm, tapi kok kayak wangi vanila ya...", p: "Jangan-jangan kamu Vanila?", btn: "Hehe iya juga..." },
-            { h2: "Yaudah deh, iya...", p: "Kamu Silvanila Munana itu, kan?", btn: "Nah, itu baru bener!" }
+            { h2: "Yaudah deh, iya...", p: "Kamu Sivanila Munana itu, kan?", btn: "Nah, itu baru bener!" }
         ];
         btnYes.addEventListener('click', () => {
             if (questionState < questions.length) {
