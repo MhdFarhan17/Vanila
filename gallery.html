@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri Kenangan Kita</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="page-header">
+        <h1>Galeri Puncak Kenangan Kita</h1>
+        <p>Kumpulan momen berdua yang selalu bikin senyum...</p>
+    </header>
+
+    <main class="gallery-container">
+        <div id="gallery-grid" class="gallery-grid">
+            <img src="img/berdua-1.jpg" alt="Foto kita berdua di gunung" data-caption="Yang ini, pas kita lagi istirahat.">
+            <img src="img/berdua-2.jpg" alt="Satu lagi foto kita berdua" data-caption="Liat deh ekspresi kita di sini, bahagia banget.">
+            <img src="img/berdua-3.jpg" alt="Foto berdua ketiga" data-caption="Momen konyol yang selalu bikin ketawa.">
+            <img src="img/berdua-4.jpg" alt="Foto berdua keempat" data-caption="Dan yang ini, pemandangannya kalah indah sama kamu.">
+        </div>
+
+        <div class="navigation-section">
+             <a href="next-adventure.html" class="btn-lanjut">Satu Halaman Terakhir...</a>
+        </div>
+    </main>
+    
+    <div id="lightbox-modal" class="modal">
+        <span class="close-btn">&times;</span>
+        <span class="prev-btn">&#10094;</span>
+        <span class="next-btn">&#10095;</span>
+        <div class="modal-content">
+            <img id="lightbox-img">
+            <p id="lightbox-caption"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
